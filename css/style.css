@@ -291,4 +291,10 @@ font-size: 25px;
     .contact{
         height:500px;
     }
+    .subtag text-small{
+      margin:20px 0px;  
+    }
+    .mtw img{
+        margin: 25px;
+    }
 }
