@@ -10,7 +10,7 @@ display:flex;
 justify-content: center;
 align-items: center;
 position: sticky;
-top: 0;
+/* top: 0; */
 cursor: pointer;
 height:100px;
 
@@ -59,7 +59,7 @@ color: darkmagenta;
        background:rgba(0, 0, 0, 0.712) url('../img/bg1.jpg') no-repeat center center/cover;
        background-size: cover;
        background-blend-mode: darken;
-       height: 11vh;
+       height: 9vh;
    }
    .secondhalf img{
        height: 200px;
@@ -224,7 +224,7 @@ font-size: 25px;
        }
        .navbar{
            flex-direction: column;
-           height: 400px;
+           /* height: 100px; */
            transition: all 2s ease-out;
            /* max-width: 50%; */
        }
@@ -242,6 +242,7 @@ font-size: 25px;
        .box-main{
            flex-direction: column-reverse;
            /* max-width: 42%; */
+           /* height: 300px; */
        }
        .h-nav{
            height: 198px;
@@ -255,18 +256,19 @@ font-size: 25px;
        .nav-list li{
         list-style: none;
         padding: 0px;
-        margin: 2px;
+        margin: 4px;
     }
     .logo img{
       position: absolute;
       left:5px;
     }
     .background{
-    height: 60%;
+    height:60%;
     }
     .section{
         flex-direction: column-reverse;
         margin:5px 28px;
+        height:600px;
     }
     .paras{
         padding: 0px;
@@ -285,5 +287,8 @@ font-size: 25px;
     .secondhalf img{
         width: 86%;
         border-radius: 90%;
+    }
+    .contact{
+        height:500px;
     }
 }
