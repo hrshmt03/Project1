@@ -285,8 +285,9 @@ font-size: 25px;
         margin: auto;
     }
     .secondhalf img{
-        width: 86%;
-        border-radius: 90%;
+        width: 91%;
+    border-radius: 108%;
+    height: 94px;
     }
     .contact{
         height:500px;
@@ -296,5 +297,8 @@ font-size: 25px;
     }
     .mtw img{
         margin: 25px;
+    }
+    .pr{
+      height:200px;  
     }
 }
